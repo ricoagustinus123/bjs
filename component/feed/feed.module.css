@@ -1,0 +1,41 @@
+.feed{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background-color: #0A253E;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5%;
+    align-items: center;
+}
+.feedCard{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    padding:3% 2%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+
+.feedTitle{
+    margin-top: 20px;
+    font-weight: lighter;
+    width:fit-content;
+    border-bottom:2px solid orangered;
+    padding-bottom: 5px;
+}
+
+.feedDesc{
+    width: 90%;
+    text-align: justify;
+    margin-top: -10px;
+}
+.readmore{
+    display: flex;
+    align-items: center;
+    color: orangered;
+    cursor: pointer;
+    font-size: medium;
+}

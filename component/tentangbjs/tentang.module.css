@@ -1,0 +1,40 @@
+.tentang{
+    width: 100vw;
+    height: auto;
+    min-height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5%;
+}
+.tentangTitle{
+    font-family: 'Rokkitt', serif;
+    font-size: 20pt;
+    font-weight: medium;
+    width: 170px;
+    margin-bottom: -10px;
+}
+.tentangTitle hr{
+    width: 150px;
+    margin-right: 20px;
+    border: 2px solid #233B54;
+    margin-top: 5px;
+}
+.tentangDesc{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.tentangText{
+    width: 60%;
+    font-size: 14pt;
+    text-align: justify;
+    line-height: 1.5;
+}
+.imageTentang{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    
+}
