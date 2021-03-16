@@ -1,0 +1,41 @@
+.bisnis{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    align-items: center;
+    gap: 30px;
+}
+.bisnisTitle{
+    font-family: 'Rokkitt', serif;
+    font-size: 20pt;
+    font-weight: medium;
+    width: 160px;
+    margin-bottom: -10px;
+}
+.bisnisTitle hr{
+    width: 140px;
+    margin-right: 20px;
+    border: 2px solid #233B54;
+    margin-top: 5px;
+}
+
+.partbisnis{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap:100px;
+}
+.katebisnis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.katebisnis h4{
+    margin-top: -10px;
+    font-family: 'Rokkitt';
+    font-size: 16pt;
+}

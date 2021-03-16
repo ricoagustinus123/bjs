@@ -14,7 +14,7 @@
     width: 100vw;
     height: 5vh;
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: #021e38;
     align-items: center;
     padding: 5% 5%;
     position: sticky;
@@ -39,9 +39,9 @@
 }
 .navbarScroll .menuComponent{
     list-style-type: none;
-    font-size: 13pt;
+    font-size: 14pt;
     display: flex;
-    color: #233B54;
+    color: white;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
  

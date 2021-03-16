@@ -4,12 +4,12 @@ const Hero = () => {
     return(
         <div className={s.hero}>
             <h1 className={s.heroTitle}>
-                Tentang Kami
+                LAYANAN KAMI
             </h1>
             <p className={s.herodesc}>
             “Melayani dengan sepenuh hati untuk meraih sukses bersama”
             </p>
-            <Link href="/" className={s.hubungi}>Hubungi Kami</Link>
+           <span className={s.hubungi}> <Link href="/" >Hubungi Kami</Link></span>
         </div>
     )
 }

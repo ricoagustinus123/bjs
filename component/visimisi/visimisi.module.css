@@ -1,0 +1,28 @@
+.containerVisi{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background-image: url(../../public/background-visimisi.svg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 5%;
+    background-size: cover;
+}
+.visi,.misi{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.visi p, .misi p{
+    color: white;
+    width: 50%;
+    text-align: justify;
+    line-height: 2;
+}
+.titlevisimisi{
+    color: orangered;
+    font-size: 20pt;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}

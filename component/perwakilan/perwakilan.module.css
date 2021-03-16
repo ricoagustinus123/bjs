@@ -1,0 +1,69 @@
+.perwakilan{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    align-items: center;
+    gap: 30px;
+}
+.perwakilanTitle{
+    font-family: 'Rokkitt', serif;
+    font-size: 20pt;
+    font-weight: medium;
+    width: 210px;
+    margin-bottom: -10px;
+}
+.perwakilanTitle hr{
+    width: 220px;
+    margin-right: 20px;
+    border: 2px solid #233B54;
+    margin-top: 5px;
+}
+
+/* card */
+.containerCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.kantorCard{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 5px 10px rgba(4, 1, 46,.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 10px;
+}
+.kantorCard h1{
+    font-size: 20pt;
+    margin-bottom:0;
+    font-family: 'Russo One', sans-serif;
+    color: #233B54;
+}
+.kantorCard h3{
+    margin-top: 0; 
+    color: #233B54;
+}
+.kontakkantor{
+    display: flex;
+    flex-direction: column;
+}
+.dataKantor{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+.isikontak{
+    width: 55%;
+    text-align: justify;
+    font-size: 10pt;
+    margin-right: 30px;
+    display: flex;
+}

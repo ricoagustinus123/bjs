@@ -12,7 +12,7 @@ export default function Navbar({quality}) {
 
     useEffect( function scroll() {
       function handleScroll() {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= 20) {
         setnavbar(true)
       }else{
         setnavbar(false)
@@ -37,16 +37,16 @@ export default function Navbar({quality}) {
               <Link href="/">beranda</Link>
               </li> 
             <li className={s.menuComponent}>
-              <Link href="/">tentang kami</Link>
+              <Link href="/tentang">tentang kami</Link>
             </li>  
             <li className={s.menuComponent}>
-              <Link href="/">layanan</Link>
+              <Link href="/layanan">layanan</Link>
             </li>  
             <li className={s.menuComponent}>
-              <Link href="/">aktivitas</Link>
+              <Link href="/aktivitas">aktivitas</Link>
             </li>  
             <li className={s.menuComponent}>
-              <Link href="/">hubungi kami</Link>
+              <Link href="/kontak">hubungi kami</Link>
             </li>
           </ul>
           

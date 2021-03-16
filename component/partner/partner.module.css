@@ -1,0 +1,27 @@
+.partner{
+    width: 100vw;
+    height: auto;
+    min-height: 50vh;
+    background-color:rgba(35, 87, 116, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1% 5%;
+    gap: 30px;
+
+
+}
+.partnerTitle{
+    font-family: 'Rokkitt', serif;
+    font-size: 20pt;
+    font-weight: medium;
+    width: 180px;
+    margin-bottom: -10px;
+    color: #233B54;
+}
+.partnerTitle hr{
+    width: 16   0px;
+    margin-right: 20px;
+    border: 2px solid #233B54;
+    margin-top: 5px;
+}

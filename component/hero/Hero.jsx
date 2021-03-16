@@ -12,7 +12,7 @@ const Hero = () => {
                 </h1>
                 <p className={s.herodesc}>“Melayani dengan sepenuh hati untuk meraih sukses bersama”</p>
 
-                <a href="/" className={s.hubungi} type="submit">Hubungi Kami</a>
+               <span className={s.hubungi}> <Link href="/"  >Hubungi Kami</Link></span>
             </div>
             <div className={s.carousel}>
                

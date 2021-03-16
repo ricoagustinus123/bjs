@@ -1,0 +1,63 @@
+.kontak{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    padding: 2% 5%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    border-bottom: 5px solid #0A253E;
+}
+.kontakTitle{
+    font-family: 'Rokkitt', serif;
+    font-size: 20pt;
+    font-weight: medium;
+    width: 170px;
+    margin-bottom: -10px;
+}
+.kontakTitle hr{
+    width: 150px;
+    margin-right: 20px;
+    border: 2px solid #233B54;
+    margin-top: 5px;
+}
+
+.map{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 50px;
+}
+
+.datakontak{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titlelokasi{
+    width: 30%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    background-color: orangered;
+}
+
+.alamat{
+    width: 100%;
+    height: 30%;
+    padding: 0 10%;
+    border: 2px solid orangered;
+    text-align: center;
+    line-height: 2;
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.datakontak span{
+    color: orangered;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}

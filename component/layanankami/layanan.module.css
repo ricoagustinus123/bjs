@@ -1,0 +1,41 @@
+.containerLayanan{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5%;
+    gap: 60px;
+    border-bottom:7px solid #0A253E ;
+}
+.subLayanan{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.subLayanan h2{
+  margin-bottom: 0;
+  display: flex;
+  gap: 10px;
+}
+.kotakIcon{
+    width: 25px;
+    height: 25px;
+    background-color: orangered;
+}
+.nosub{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: -20px;
+    width: 50%;
+}
+.nosub span{
+    margin-top: 20px;
+}
+.nosub p{
+    width: 100%;
+    text-align: justify;
+    line-height: 1.5;
+}
