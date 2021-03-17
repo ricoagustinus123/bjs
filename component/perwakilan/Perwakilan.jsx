@@ -2,7 +2,7 @@ import s from './perwakilan.module.css'
 import Image from 'next/image'
 const Perwakilan = () => {
     return(
-        <div className={s.perwakilan}>
+        <div className={s.perwakilan} id="perwakilan">
             <h1 className={s.perwakilanTitle}>
                     Kantor Perwakilan
                     <hr/>

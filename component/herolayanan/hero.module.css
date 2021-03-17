@@ -1,12 +1,13 @@
 .hero{
     width: 100vw;
     height: 70vh;
-    background-image: url(../..//public/herolayanan.svg);
+    background-image: url(../..//public/herollayanan.svg);
    /* background-color: rgba(red, green, blue, 0.7); */
     margin-top: -140px;
     display: flex;
     z-index: 10;
     position: relative;
+    background-size: cover;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -42,4 +43,19 @@
 
 .hubungi:hover{
     background-color: orangered;
+}
+
+@media only screen and (max-width:768px){
+    .heroTitle{
+        font-size: 20pt;
+    }
+    .herodesc{
+        text-align: center;
+        width: 250px;
+    }
+    .hubungi{
+        width: 50%;
+        height: 40px;
+        font-size: 14pt;
+    }
 }

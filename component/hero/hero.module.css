@@ -68,8 +68,39 @@
     left: 300px;
 
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:768px){
     .hero{
         height: 80vh;
+        flex-direction: column;
+        gap: 0;
+        flex-direction: column-reverse;
+        padding: 0 5%;
+        
+    }
+    .heroText{
+        font-size: 14pt;
+        padding: 20% 0;
+        width: 100%;
+    
+    }
+    .heroTitle{
+        font-size: 20pt;
+    }
+    .herodesc{
+        text-align: center;
+    }
+    .hubungi{
+        width: 50%;
+        height: 40px;
+        font-size: 14pt;
+    }
+    .carousel{
+        width: 300px;
+        margin-bottom: -50px;
+        margin-top: -500px;
+        
+    }
+    .dot{
+        left: 0;
     }
 }

@@ -7,6 +7,9 @@
     flex-direction: column;
     padding: 5% 5%;
     gap: 50px;
+    border-bottom: 5px solid #0A253E;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
 }
 .aktivitasbjs{
     width: 100vw;
@@ -65,4 +68,19 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width:768px){
+    .video{
+        height: auto;
+    }
+    .aktivitasbjs2{
+        height: auto;
+    }
+    .gallerykontraktor{
+        flex-direction: column;
+        padding: 3% 5%;
+        gap:30px;
+    }
+    
 }

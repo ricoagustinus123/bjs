@@ -14,7 +14,7 @@ const Feed = () => {
                 </p>
                 <Link href="/">
                 <div className={s.readmore}>
-                Readmore
+                <Link href="/layanan">Readmore</Link>
                 <span className="material-icons">
                  arrow_forward
                 </span>
@@ -33,7 +33,7 @@ const Feed = () => {
                 </p>
                 <Link href="/">
                 <div className={s.readmore}>
-                Readmore
+                <Link href="/tentang?#perwakilan">Readmore</Link>
                 <span className="material-icons">
                  arrow_forward
                 </span>
@@ -52,7 +52,7 @@ const Feed = () => {
                 </p>
                 <Link href="/">
                 <div className={s.readmore}>
-                Readmore
+                <Link href="/aktivitas">Readmore</Link>
                 <span className="material-icons">
                  arrow_forward
                 </span>

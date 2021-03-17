@@ -9,9 +9,8 @@ const Kontak = () => {
 
                 <div className={s.map}>
                      <div className="google-map-code">
-                     <div style={{width:"400%"}}>
-                         <iframe style={{
-                            borderRadius:"20px"}} width={600} height={500} src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=PT%20JAMTAMA,%20Gedung%20Jamkrindo,%20Jl.%20Angkasa%20No.10,%20RW.10,%20Gn.%20Sahari%20Sel.,%20Kec.%20Kemayoran,%20Kota%20Jakarta%20Pusat,%20Daerah%20Khusus%20Ibukota%20Jakarta%2010610+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                     <div className={s.mapBjs}>
+                         <iframe className={s.iframeMap} src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=PT%20JAMTAMA,%20Gedung%20Jamkrindo,%20Jl.%20Angkasa%20No.10,%20RW.10,%20Gn.%20Sahari%20Sel.,%20Kec.%20Kemayoran,%20Kota%20Jakarta%20Pusat,%20Daerah%20Khusus%20Ibukota%20Jakarta%2010610+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
 
                     </div>

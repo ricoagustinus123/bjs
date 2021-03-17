@@ -30,7 +30,7 @@ export default function Navbar({quality}) {
         </Head>
         <nav className={navbar ? (s.navbarScroll) : (s.navbar) }>
           <div className={s.brand}>
-            <Image src="/bjs-logo.svg" quality={100} alt=" logo bintang jamtama sejahtera" width={200} height={102} className="logo"/>
+            <Image src="/bjs-logo.svg" quality={100} alt=" logo bintang jamtama sejahtera" width={200} height={102} className={s.logoscroll}/>
           </div>
           <ul className={s.menu}>
             <li className={s.menuComponent}>
@@ -52,6 +52,7 @@ export default function Navbar({quality}) {
           
           
         </nav>
+        <div className={s.containerMenumobile}>
         <div className={s.dropMenu}>
         <Image src="/bjs-logo.svg" quality={100} alt=" logo bintang jamtama sejahtera" width={200} height={102} className="logo"/>
           <span className="material-icons">
@@ -63,24 +64,26 @@ export default function Navbar({quality}) {
           </div>
         <div className={s.menumobile} style={{
           display : show ? "flex" : null,
-          marginTop : show ? 0 : null,
-          opacity : show ? 1 : null
-        }}>z
+          marginTop : show ? 60 : null,
+          opacity : show ? 1 : null,
+          position : show ? "fixed" :null
+        }}>
           <li className={s.menuComponent2}>
               <Link href="/">beranda</Link>
               </li> 
             <li className={s.menuComponent2}>
-              <Link href="/">tentang kami</Link>
+              <Link href="/tentang">tentang kami</Link>
             </li>  
             <li className={s.menuComponent2}>
-              <Link href="/">layanan</Link>
+              <Link href="/layanan">layanan</Link>
             </li>  
             <li className={s.menuComponent2}>
-              <Link href="/">aktivitas</Link>
+              <Link href="/aktivitas">aktivitas</Link>
             </li>  
             <li className={s.menuComponent2}>
-              <Link href="/">hubungi kami</Link>
+              <Link href="/kontak">hubungi kami</Link>
             </li>
+          </div>
           </div>
        </>
     )

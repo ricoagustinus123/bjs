@@ -12,10 +12,12 @@
     flex-direction: column;
     padding: 0 5%;
     gap: 20px;
+    background-size: cover;
+    background-position:center;
     
 }
 
-.heroTitle,.herodesc{
+.heroTitle{
     color: white;
     margin-bottom: 0%;
 }
@@ -42,4 +44,11 @@
 
 .hubungi:hover{
     background-color: orangered;
+}
+
+@media only screen and (max-width:768px){
+    .heroTitle{
+        font-size: 20pt;
+    }
+
 }

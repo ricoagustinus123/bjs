@@ -38,3 +38,15 @@
     margin-top: -40px;
     
 }
+
+@media only screen and (max-width:768px){
+
+    .tentangDesc{
+        flex-direction:column-reverse;
+        padding: 20% 0;
+        align-items: center;
+    }
+    .tentangText{
+        width: 100%;
+    }
+}
