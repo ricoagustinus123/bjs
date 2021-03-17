@@ -10,6 +10,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 0 5%;
+    gap: 100px;
     
 }
 .heroText{
@@ -41,10 +42,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .hubungi:hover{
     background-color: orangered;
+}
+.carousel{
+    width: 700px;
+    height: auto;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.5);
+
+}
+.dot{                                                                                                                                                                                                                                                                                                                   
+    margin-top: -4px;
+    width: 100%;
+    text-align: center;
+    z-index: 5000;
+    position: absolute;
+    left: 300px;
+
 }
 @media only screen and (max-width:500px){
     .hero{

@@ -34,19 +34,19 @@ export default function Navbar({quality}) {
           </div>
           <ul className={s.menu}>
             <li className={s.menuComponent}>
-              <Link href="/">beranda</Link>
+              <Link href="/">Beranda</Link>
               </li> 
             <li className={s.menuComponent}>
-              <Link href="/tentang">tentang kami</Link>
+              <Link href="/tentang">Tentang Kami</Link>
             </li>  
             <li className={s.menuComponent}>
-              <Link href="/layanan">layanan</Link>
+              <Link href="/layanan">Layanan</Link>
             </li>  
             <li className={s.menuComponent}>
-              <Link href="/aktivitas">aktivitas</Link>
+              <Link href="/aktivitas">Aktivitas</Link>
             </li>  
             <li className={s.menuComponent}>
-              <Link href="/kontak">hubungi kami</Link>
+              <Link href="/kontak">Hubungi kami</Link>
             </li>
           </ul>
           

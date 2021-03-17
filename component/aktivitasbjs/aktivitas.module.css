@@ -1,0 +1,68 @@
+.containeraktivitas{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 5%;
+    gap: 50px;
+}
+.aktivitasbjs{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aktivitasbjs h2{
+    color: rgb(4, 33, 78);
+    padding:  1% 2%;
+    border-bottom: 2px solid orangered;
+}
+
+.aktivitasbjs2{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(2, 2, 37);
+    padding: 2% 0;
+    border-radius: 20px;
+    
+}
+.aktivitasbjs2 h2{
+    color: white;
+    padding:  1% 2%;
+    border-radius: 30px;
+
+}
+
+.aktivitasbjs3{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+    border-radius: 20px;
+    
+}
+.aktivitasbjs2 h3{
+    color: rgb(4, 33, 78);
+    padding:  1% 2%;
+    border-radius: 30px;
+
+}
+
+.video{
+    width: 80vw;
+    height: 80vh;
+}
+
+.gallerykontraktor{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}

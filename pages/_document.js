@@ -14,7 +14,6 @@ class MyDocument extends Document {
             <meta name="author" content="Bintang Jamtama Sejahtera"/>
             <meta name="keywords" content="Office Boy,Office Girl,Driver,Security,Receptionist,Administrasi"/>
             <meta name="description" content="Outsourcing terbaik dan terpercaya"/>
-            <title>Bintang Jamtama Sejahtera</title>
             <link rel="icon" href="../public/bjs-logo.svg" sizes="100x100"/>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
             <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@600&display=swap" rel="stylesheet"/>
