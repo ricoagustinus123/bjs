@@ -7,7 +7,7 @@ const Partner = () =>{
                         Partner Kami
                     <hr/>
             </h1>
-            <Image src="/jamkrindo.svg" width={150} height={150} quality={100}/>
+            <Image src="/jamkrindo.svg" className={s.partnerKita} width={150} height={150} quality={100}/>
         </div>
     )
 }

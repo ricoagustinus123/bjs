@@ -15,7 +15,7 @@ const Perwakilan = () => {
                     <h3>(pusat)</h3>
                     
                     <div className={s.kontakKantor}>
-                        <div className={s.dataKantor}>                        <h3>Alamat :</h3>
+                        <div className={s.dataKantor}><h3>Alamat :</h3>
                         <span className={s.isikontak}>JL. Angkasa Blok B9 KAV 6 Kota Baru Bandar Kemayoran Gunung Sahari Jakarta Pusat
                         </span>
                         </div>

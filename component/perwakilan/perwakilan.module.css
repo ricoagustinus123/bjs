@@ -67,7 +67,22 @@
     margin-right: 30px;
     display: flex;
 }
-
+@media only screen and (max-width: 320px){
+    .kantorCard{
+        width: 290px;
+    }
+    .kontakkantor{
+        display: flex;
+        flex-direction: column;
+    }
+    .dataKantor{
+        flex-direction: column;
+        gap: 0;
+    }
+    .dataKantor .isikontak{
+        width: 100%;
+    }
+}
 @media only screen and (max-width:768px){
     .containerCard{
         flex-direction: column;

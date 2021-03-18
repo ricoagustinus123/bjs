@@ -44,7 +44,32 @@
 .hubungi:hover{
     background-color: orangered;
 }
+@media only screen and (max-width: 320px){
+    .hero{
+        min-width: 100%;   
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-size: cover;
 
+    }
+    .heroTitle{
+        margin-top: 50px;
+        font-size: 16pt;
+    }
+    .herodesc{
+        font-size: 12pt;
+        width: 300px;
+        text-align: center;
+    }
+    .hubungi{
+        font-size: 16pt;
+        width: 60%;
+        height: 10%;
+    }
+
+}
 @media only screen and (max-width:768x){
     .heroTitle{
         font-size: 20pt;

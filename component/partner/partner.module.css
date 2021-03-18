@@ -25,3 +25,13 @@
     border: 2px solid #233B54;
     margin-top: 5px;
 }
+.partnerKita{
+    width: 150px;
+    height: 150px;
+}
+@media only screen and (max-width:320px){
+    .partnerKita{
+        width: 90px;
+        height: 90px;
+    }
+}

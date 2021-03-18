@@ -38,7 +38,26 @@
     margin-top: -40px;
     
 }
-
+@media only screen and (max-width: 320px){
+    .tentang{
+        width: 100vw;
+        padding-left:5% 5%;
+        display: flex;
+        justify-content: center;    
+    }
+    .tentangDesc{
+        flex-direction:column-reverse;
+        padding: 10% 0;
+        align-items: center;    
+    }
+    .tentangText{
+        width: 50%;
+        margin-left: 0;
+    }
+    .imageTentang{
+        margin-left: 0;
+    }
+}
 @media only screen and (max-width:500px){
 
     .tentangDesc{

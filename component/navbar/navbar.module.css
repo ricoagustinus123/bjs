@@ -12,7 +12,7 @@
 }
 .navbarScroll{
     width: 100vw;
-    height: 5vh;
+    height: 10h;
     display: flex;
     background-color: #021e38;
     align-items: center;
@@ -42,7 +42,7 @@
     list-style-type: none;
     font-size: 14pt;
     display: flex;
-    color: rgb(197, 29, 29);
+    color: rgb(255, 255, 255);
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
  
@@ -72,6 +72,11 @@
   
 }
 
+.dropicon{
+    color: white;
+    font-size: 24pt;
+}
+
 @media only screen and (max-width: 320px){
     .containerMenumobile{
         width: 100%;
@@ -82,8 +87,8 @@
         padding: 5% 0;
     }
     .navbarScroll{
-        width: 500px;
-        height: 10vh;
+        width: 100%;
+        height: 20vh;
         padding: 7% 0;
     }
     .dropMenu{
@@ -92,22 +97,27 @@
     }
 
     .menumobile{
-        margin-right: 320px;
+        position: absolute;
+        left: -390px;
     }
     .dropicon{
-        position: fixed;
-        top: -30px;
-        left: 0px;
+        position: absolute;
         width: 100px;
         height: 50px;
+        margin-top: 10px;
+        right: 500px;
+        z-index: 400;
+        display: flex;
+    
     }
     .logo{
         width: 80px;
         height: 52px;
+        margin-top: 20px;
         margin-right: -300px;
     }
 }
-@media only screen and (max-width: 500px){
+@media only  screen and (max-width: 500px){
     .containerMenumobile{
         width: 100vw;
         height: 10vh;
@@ -131,7 +141,7 @@
     .dropicon{
         position: fixed;
         top: -30px;
-        left: 300px;
+        left:30%;
         width: 100px;
         height: 50px;
     }
@@ -182,9 +192,12 @@
     }
     
     .dropicon{
-        font-size: 30pt;
-        margin-left: 120px;
-        color: white;
+        position: fixed;
+        top: 0;
+        width: 100px;
+        height: 50px;
+        margin-left: 60%;
+        
     }
 
     .dropMenu{
@@ -213,7 +226,7 @@
         align-items: flex-start;
          margin-left: 550px;
          position: absolute;
-        margin-top: -6px;
+        margin-top: -90px;
         border-radius: 20px;
         list-style: none;
         color: white;
