@@ -11,6 +11,7 @@
     align-items: center;
     padding: 0 5%;
     gap: 100px;
+    background-size: cover;
     
 }
 .heroText{
@@ -68,19 +69,69 @@
     left: 300px;
 
 }
+@media only screen and (max-width:320px){
+    .hero{
+        padding: 0 5%;
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+
+    }
+    .carousel{
+        position: relative;
+        padding: 20px;
+        margin-bottom: -200px;
+        bottom: 100px;
+    }
+    .heroText{
+        margin-top: 400px;
+
+    }
+    .heroTitle{
+        margin-top: -310px;
+    }
+
+}
+@media only screen and (max-width:500px){
+    .hero{
+        padding: 0 5%;
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+        
+    }
+    .carousel{
+        position: relative;
+        padding: 20px;
+        margin-bottom: -200px;
+        bottom: 100px;
+    }
+    .heroText{
+        margin-top: 400px;
+
+    }
+    .heroTitle{
+        margin-top: -310px;
+    }
+}
 @media only screen and (max-width:768px){
     .hero{
-        height: 80vh;
+        min-height: 100vh;
+        width: 100vw;
         flex-direction: column;
         gap: 0;
         flex-direction: column-reverse;
-        padding: 0 5%;
+        padding: 30px 5%;
+        justify-content: flex-start;
+        height: auto;
         
     }
     .heroText{
         font-size: 14pt;
         padding: 20% 0;
         width: 100%;
+        position: relative;
+        top: 100px;
     
     }
     .heroTitle{
@@ -95,12 +146,29 @@
         font-size: 14pt;
     }
     .carousel{
-        width: 300px;
+        width: 200px;
         margin-bottom: -50px;
-        margin-top: -500px;
+        position: absolute;
+        top: 120px;
         
     }
     .dot{
         left: 0;
     }
+}
+@media only screen and (max-width:1024px){
+    .hero{
+    width: 100vw;
+}
+.dot{
+    position: absolute;
+    z-index: 300px;
+    left: 0;
+}
+
+.carousel{
+    width: 100%; 
+    position: relative;
+}
+
 }

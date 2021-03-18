@@ -30,7 +30,7 @@ export default function Navbar({quality}) {
         </Head>
         <nav className={navbar ? (s.navbarScroll) : (s.navbar) }>
           <div className={s.brand}>
-            <Image src="/bjs-logo.svg" quality={100} alt=" logo bintang jamtama sejahtera" width={200} height={102} className={s.logoscroll}/>
+            <Image src="/bjs-logo.svg" quality={100} alt=" logo bintang jamtama sejahtera" width={200} height={102}  className={s.logoscroll}/>
           </div>
           <ul className={s.menu}>
             <li className={s.menuComponent}>
@@ -54,7 +54,7 @@ export default function Navbar({quality}) {
         </nav>
         <div className={s.containerMenumobile}>
         <div className={s.dropMenu}>
-        <Image src="/bjs-logo.svg" quality={100} alt=" logo bintang jamtama sejahtera" width={200} height={102} className="logo"/>
+        <Image src="/bjs-logo.svg" quality={100} alt=" logo bintang jamtama sejahtera" width={200} height={102} className={s.logo}/>
           <span className="material-icons">
             
             <p className={s.dropicon} onClick={()=>{

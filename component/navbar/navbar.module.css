@@ -22,14 +22,15 @@
     left: 0;
     z-index: 200;
 }
-.hello{
-    color:red;
-}
+
 .navbar .menu{
     width: 80%;
     display: flex;
     gap: 80px;
     
+}
+.logoscroll{
+    position: fixed;
 }
 .menu{
     width: 80%;
@@ -71,11 +72,47 @@
   
 }
 
-
 @media only screen and (max-width: 500px){
+    .containerMenumobile{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0;
+    }
+    .navbarScroll{
+        
+        height: 10vh;
+        padding: 7% 0;
+    }
+    .dropMenu{
+        width: 100%;
+        padding: 10% 5%;
+        background-color: c#021e38;
+    }
+    .menumobile{
+        margin-right:290px;
+    }
+    .dropicon{
+        position: fixed;
+        top: -30px;
+        left: 200px;
+        width: 100px;
+        height: 50px;
+    }
+    .logo{
+        width: 100px;
+        height: 52px;
+    }
+}
+/* 768px */
+
+@media only screen and (max-width: 768px){
     .navbar{
         padding: 20% 5%;
         display: none;
+        margin-bottom: 300px;
     }
 
    
@@ -98,6 +135,7 @@
     .navbarScroll{
         height: 10vh;
         margin-bottom: -80px;
+    
     }
     .navbarScroll .menuComponent{
         display: none;
@@ -105,10 +143,13 @@
     .brand{
         display: none;
     }
+    .logo{
+        margin-left: 20px;
+    }
     
     .dropicon{
         font-size: 30pt;
-        margin-left: 100px;
+        margin-left: 120px;
         color: white;
     }
 
@@ -133,10 +174,10 @@
         padding: 20px 10px;
         flex-direction: column;
         box-shadow: 5px 5px solid black;
-        background: rgba(14, 30, 122,0.5);
+        background: rgba(14, 30, 122,0.9);
         gap: 30px;
         align-items: flex-start;
-         margin-left: 220px;
+         margin-left: 550px;
          position: absolute;
         margin-top: -6px;
         border-radius: 20px;
