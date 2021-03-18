@@ -10,7 +10,7 @@ const Feed = () => {
                
                 </h1>
                 <p className={s.feedDesc}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem nihil ipsa accusantium eligendi impedit. Ducimus quo placeat repellat quam, id fugit, molestias asperiores velit ratione labore adipisci nulla cumque?
+                   memberikan pelayanan terbaik bagi setiap partner kami
                 </p>
                 <Link href="/">
                 <div className={s.readmore}>
@@ -29,7 +29,7 @@ const Feed = () => {
                 
                 </h1>
                 <p className={s.feedDesc}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem nihil ipsa accusantium eligendi impedit. Ducimus quo placeat repellat quam, id fugit, molestias asperiores velit ratione labore adipisci nulla cumque?
+                    Untuk pelayanan, kami berada di Jakarta,Jawwa Tengah,Jawa Timur,Jawa Barat,dan Makassar.
                 </p>
                 <Link href="/">
                 <div className={s.readmore}>
@@ -48,7 +48,7 @@ const Feed = () => {
                
                 </h1>
                 <p className={s.feedDesc}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed autem nihil ipsa accusantium eligendi impedit. Ducimus quo placeat repellat quam, id fugit, molestias asperiores velit ratione labore adipisci nulla cumque?
+                   berikut beberapa aktivitas yang kami lakukan.
                 </p>
                 <Link href="/">
                 <div className={s.readmore}>
