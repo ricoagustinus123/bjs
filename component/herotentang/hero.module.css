@@ -45,7 +45,7 @@
     background-color: orangered;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768x){
     .heroTitle{
         font-size: 20pt;
     }
